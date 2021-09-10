@@ -1,0 +1,9 @@
+POST http://{{host}}/api/auth/register
+Accept: application/json
+Content-Type: application/json
+
+{
+"name": "felipe",
+"email": "felipe@tascon.false",
+"password": "test"
+}
